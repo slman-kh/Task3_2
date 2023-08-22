@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+   width: 100vw;
+}
+.navbar1{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    list-style:none;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first_nav_part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+.second_nav_part{
+    display: flex;
+    gap:10px;
+}
+.navbar1 li a{
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+.hero{
+    background-image: url(./assest/ssb-bldg-940.jpg);
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero h1{
+    color: white;
+    font-size: 50px;
+    background-color: rgba(100, 150, 200, 50%);
+    padding: 20px;
+    height: max-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#aboutus{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#aboutus p{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ourservices{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    background-color: rgb(245, 191, 163);
+    flex-wrap: wrap;
+}
+#ourservices .col{
+    display:flex;
+    justify-content: space-between;
+}
+ .parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+#ourservices .child{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    flex-direction:column;
+    margin: 7px 10px;
+    background-color: white;
+    border-radius:5px ;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+h2{
+    font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#specialization{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 50px 0;
+    flex-wrap: wrap;
+}
+#specialization ul li{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+#specialization ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ourteachers{
+    width: 100vw;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 50px 0;
+    background-color: rgb(245, 191, 163);
+    flex-wrap: wrap;
+}
+#ourteachers ul li{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#ourteachers ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+#ourteachers ul li img{
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#plans{
+     width: 100vw;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 50px 0;
+    background-color: rgb(245, 191, 163);
+    flex-wrap: wrap;
+}
+ .img1 img{
+    width:300px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   gap: 10px;
+   margin-top: 10px;
+}
+.box1 img{
+    width:167px;
+}
+.child{
+    background-color: rgb(245, 222, 179);
+    width: 340px;
+    height: 465px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+.child ul{
+    padding: 0 30px;
+}
+.box1{
+    margin: 21px;
+padding: 10px;
+width: 300px;
+height: 80px;
+background-color: rgb(247, 230, 158);
+border-radius: 10px;
+border: 2px solid rgb(201, 177, 42);
+}
+.parent{
+    display: flex;
+    gap:50px;
+    padding:50px;
+}
+
+
+
+
+
+
+
+#contactus{
+    width: 100vw;
+height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 60px 0;
+background-color: rgb(248, 203, 179);
+}
+.parent_contact{
+    margin: 15px;
+    background-color: rgb(248, 203, 179);
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+gap:20px;
+}
+
+
+.child_contact{
+    display: flex;
+flex-direction: column;
+gap: 0 20px;
+}
+.enter{
+width: 500px;
+height: 25px;
+}
+.send{
+        width: 150px;
+        height: 50px;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        margin: 14px 0;
+        border-radius: 7px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contactinfo{
+     width: 100vw;
+     height:400px;
+     background-color: rgb(252, 208, 185);
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+#contactinfo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    padding: 14px 0;
+    list-style: none;
+    gap: 20px;
+    background-color: black;
+}
+
+
+h1{
+    font-size: 37px;
+}
+.follow{
+    height: max-content;
+}
+
+
+
+@media only screen and (max-width:512px){
+    .enter{
+        width: 75%;
+        height: 25px;
+    }
+
+
+
+
+}
